@@ -1,0 +1,19 @@
+.about-header {
+  background: url(../media/images/Rectangle-42.svg) no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+}
+.about-header-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--main-rl-padding);
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.about-header nav {
+  background-color: rgba(255, 255, 255, 0.01) !important;
+  backdrop-filter: blur(10px);
+}
